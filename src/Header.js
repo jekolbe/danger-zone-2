@@ -12,7 +12,7 @@ function Header() {
     >
       <div style={{ display: "flex", alignItems: "center" }}>
         <img src="/src/logo.jpg" alt="Logo" style={{ marginRight: "10px" }} />
-        <h1>Dangerous Zone</h1>
+        <h1>Danger Zone</h1>
       </div>
       <nav>
         <a href="#home" style={{ marginRight: "20px" }}>
