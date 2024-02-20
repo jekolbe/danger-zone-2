@@ -11,7 +11,7 @@ function Header() {
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
-        <img src="/src/logo.jpg" alt="Logo" style={{ marginRight: "10px" }} />
+        <img src={require("./assets/danger-zone.jpg")} alt="Logo" style={{ marginRight: "10px", height: "50px" }} />
         <h1>Danger Zone</h1>
       </div>
       <nav>
