@@ -23,10 +23,12 @@ function Trips() {
       <div
         style={{
           color: "white",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
         }}
       >
-        <h2>Trips</h2>
-        <p>Trips</p>
+        <h2 style={{ color: "black" }}>Trips</h2>
         {data &&
           data.map((trip) => (
             <div
@@ -39,6 +41,7 @@ function Trips() {
                 alignItems: "center",
                 backgroundColor: "black",
                 marginBottom: "20px",
+                maxWidth: "500px",
               }}
             >
               <div style={{ flex: 1 }}>
