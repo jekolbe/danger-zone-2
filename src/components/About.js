@@ -17,11 +17,7 @@ function Trips() {
           transform: "translate(-50%, -50%)",
           color: "white",
         }}
-      >
-        <h2>Trips</h2>
-        <p>Trips</p>
-        <button onClick={scrollToBooking}>Book Now a Trip</button>
-      </div>
+      ></div>
       {/* Background image (consider adding via CSS for better control) */}
     </main>
   );
