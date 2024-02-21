@@ -1,6 +1,6 @@
 import React from "react";
 
-function MainContent() {
+function Trips() {
   const scrollToBooking = () => {
     document
       .getElementById("bookingSection")
@@ -18,8 +18,8 @@ function MainContent() {
           color: "white",
         }}
       >
-        <h2>Cool Description of Dangerous Trips</h2>
-        <p>Book your dangerous trip with us and explore the unexplored!</p>
+        <h2>Trips</h2>
+        <p>Trips</p>
         <button onClick={scrollToBooking}>Book Now a Trip</button>
       </div>
       {/* Background image (consider adding via CSS for better control) */}
@@ -27,4 +27,4 @@ function MainContent() {
   );
 }
 
-export default MainContent;
+export default Trips;
