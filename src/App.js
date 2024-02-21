@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import Header from "./components/Header";
 import { Routes } from "./routing/routes.ts";
 import Home from "./components/Home.js";
@@ -11,6 +16,7 @@ function App() {
     <div>
       <Header />
       <Router>
+        <Redirect from="/" to={`${Routes.Home}`} />
         <Switch>
           <Route exact path={`${Routes.Home}`}>
             <Home />
